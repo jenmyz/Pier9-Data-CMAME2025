@@ -4,10 +4,10 @@ This repository contains the raw and preprocessed strain gauge data used for the
 Materials distributed in this repository are copyright Autodesk, Inc. [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
 
 The directories "2019_04_24_150000UTC", "2019_04_24_150000UTC", and "2019_04_24_150000UTC" contain the time series strain gauge data gathered respectively on April 24th, 25th, and 26th, 2019 from an indoor steeltruss bridge in the Autodesk office at Pier 9, San Francisco. 
-![Locations and names of the 6 strain gauges on the bridge](Images\Pier9-bridge-photo.jpg)
+![Locations and names of the 6 strain gauges on the bridge](./Images/Pier9-bridge-photo.jpg)
 
 The content within each directory is organized by the names of the 6 sensors, the locations of which are indicated in the figure below:
-![Locations and names of the 6 strain gauges on the bridge](Images\Pier9Barc.png)
+![Locations and names of the 6 strain gauges on the bridge](./Images/Pier9BARC.png)
 
 There are 3 zip files for each sensor on each day: 
 + **Data_Raw.csv.zip** contains the raw data measured by the sensor at 80Hz. The two columns in the csv file contain the strain measurement and the UTC timestamp for when the measurement was recorded.
@@ -18,4 +18,4 @@ The "DTI Training Data" directory contains the time series strain data for 233 e
 + **FEA_data.npz.zip** contains the basic datastructure from a beam network finite element model of the bridge, including: stiffness matrix (_K_), the mass matrix (_M_), the measurement matrix (_H_) mapping from the global displacement vector to the measured strain at the sensor locations, global degrees-of-freedom index for the Dirichlet boundary conditions (_BC_), and the mesh coordinates (_mesh_).
 + **mesh.vtu** contains the finite element mesh of the beam network model.
 + **mu_list.csv** contains a list of identified load parameters for each of the 228 events. For a detailed description of the parameters, please refer to Section 7.4 in the manuscript.
-+ **Sensor_data.npz.zip** contains the time series strain data for each event, organized into 6 files named after each sensor. The timestamp for each strain reading is in seconds, measured from the start of an approximate time window during which the event occurred. The precise start time of the event (see Figure 14 of manuscript) is indicated in the second column of _mu_list.csv_.
++ **Sensor_data.zip** contains the time series strain data for each event in _mu_list.csv_. The directory for each event is named by concatenating the parameter values in columns 3 to 14 of _mu_list.csv_ to 4 decimal places. Each directory contains the time series strain data for each sensor. The timestamp for each strain reading is in seconds, measured from the start of an approximate time window during which the event occurred. The precise start time of the event (see Figure 14 of manuscript) is indicated in column 2 of _mu_list.csv_.

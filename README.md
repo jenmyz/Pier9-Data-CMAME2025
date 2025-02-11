@@ -1,9 +1,9 @@
-# Pier-9-data-CMAME2025
+# Pier9-Data-CMAME2025
 This repository contains the raw and preprocessed strain gauge data used for the results in the paper "[Probabilistic Learning from Real-World Observations of Systems with Unknown Inputs for Model-Form UQ and Digital Twinning](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4960520)" submitted to the journal of Computer Methods in Applied Mechanics and Engineering.
 
 Materials distributed in this repository are copyright Autodesk, Inc. [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
 
-The directories "2019_04_24_150000UTC", "2019_04_24_150000UTC", and "2019_04_24_150000UTC" contain the time series strain gauge data gathered respectively on April 24th, 25th, and 26th, 2019 from an indoor steeltruss bridge in the Autodesk office at Pier 9, San Francisco. 
+The directories "2019_04_24_150000UTC", "2019_04_25_150000UTC", and "2019_04_26_150000UTC" contain the time series strain gauge data gathered respectively on April 24th, 25th, and 26th, 2019 from an indoor steeltruss bridge in the Autodesk office at Pier 9, San Francisco. 
 ![Locations and names of the 6 strain gauges on the bridge](./Images/Pier9-bridge-photo.jpg)
 
 The content within each directory is organized by the names of the 6 sensors, the locations of which are indicated in the figure below:

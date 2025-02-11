@@ -1,0 +1,5 @@
+2019_04_24_150000UTC/ filter=lfs diff=lfs merge=lfs -text
+2019_04_25_150000UTC/ filter=lfs diff=lfs merge=lfs -text
+2019_04_26_150000UTC/ filter=lfs diff=lfs merge=lfs -text
+DTI[[:space:]]Training[[:space:]]Data/Sensor[[:space:]]Data.zip filter=lfs diff=lfs merge=lfs -text
+DTI[[:space:]]Training[[:space:]]Data/FEA_data.npz.zip filter=lfs diff=lfs merge=lfs -text
